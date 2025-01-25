@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #de8744;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #de8744;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.logo img {
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+.symbol {
+    font-size: 2rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #003366; /* Change color on hover */
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15471699/shutterstock_126133007.0.0.1539614715.jpg');
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    color: #fefefd;
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Size of the main heading */
+}
+
+.sections {
+    display: flex; /* Flexbox layout for sections */
+    justify-content: space-between; /* Space between sections */
+    padding: 30px; 
+}
+
+.section {
+    background-color: #ece8e8; /* White background for sections */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 40px;
+    text-align: center; /* Center text in sections */
+    width: calc(25% - 20px); /* Width of each section */
+}
+
+.section h2 {
+    font-size: 1.5rem; /* Size of section headings */
+    color: #de8744; /* Color of section headings */
+}
+
+.section p {
+   font-size: 1rem; 
+   color:#680909; 
+}
+
+footer {
+   text-align: center; 
+   padding: 60px; 
+   background-color:#fefffffc; 
+   color:#680909; 
+}
+
