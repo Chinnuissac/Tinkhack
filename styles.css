@@ -83,12 +83,24 @@ nav ul li a:hover {
 .section h2 {
     font-size: 1.5rem; /* Size of section headings */
     color: #de8744; /* Color of section headings */
+
 }
+
 
 .section p {
    font-size: 1rem; 
    color:#680909; 
 }
+.section a {
+    text-decoration: none; /* Removes the underline */
+    color: #de8744; /* Adjust the link color */
+}
+
+.section a:hover {
+    color: #680909; /* Change color when hovered */
+}
+
+
 
 footer {
    text-align: center; 
