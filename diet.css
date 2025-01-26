@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light background for better readability */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #de8744; /* Header background color */
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff; /* Logo text color */
+}
+
+.logo img {
+    max-height: 30px; /* Logo image height */
+    margin-right: 10px; /* Space between logo text and image */
+}
+
+nav ul {
+    list-style: none; /* No bullets for the navigation list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox for horizontal navigation */
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none; /* No underline for links */
+    color: #fff; /* Link color */
+}
+
+nav ul li a:hover {
+    color: #003366; /* Change color on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('https://www.emro.who.int/images/stories/nutrition/balanced-diet.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    color: #fefefd; /* Text color in hero section */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Size of the main heading */
+}
+
+/* Content Styles */
+.content {
+   padding: 20px; 
+   margin-top: 20px; 
+}
+
+.content h2 {
+   color: #de8744; /* Color of section headings */
+}
+
+.content ul {
+   list-style-type: disc; /* Bullet points for lists */
+   margin-left: 20px; /* Indentation for list items */
+}
+
+/* Footer Styles */
+footer {
+   text-align: center;
+   padding: 20px;
+   background-color:#fefffffc; 
+   color:#680909; 
+}

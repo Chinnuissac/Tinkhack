@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum </title>
+    <link rel="stylesheet" href="forum.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="about_us.html">About Us</a></li>
+                <li><a href="health_and_fitness.html">Health and Fitness</a></li>
+                <li><a href="diet_and_nutrition_plan.html">Diet and Nutrition Plan</a></li>
+                <li><a href="mental_support.html">Mental Support</a></li>
+                
+                
+            </ul>
+        </nav>
+        <h1> Community Forum</h1>
+    </header>
+
+    <!-- Forum Content -->
+    <div class="forum-container">
+        <section class="forum-posts">
+            <h2>Recent Discussions</h2>
+            <!-- Post 1 -->
+            <div class="post">
+                <h3><a href="#post1">Caring for your stitches after childbirth</a></h3>
+                <p>Tips and advice on taking care of stitches and pain relief after delivery.</p>
+                <small>Posted by JaneDoe on January 25, 2025</small>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="post">
+                <h3><a href="#post2">Dealing with postpartum depression</a></h3>
+                <p>Sharing experiences and resources for dealing with postpartum depression.</p>
+                <small>Posted by MarySue on January 24, 2025</small>
+            </div>
+
+            <!-- Post 3 -->
+            <div class="post">
+                <h3><a href="#post3">Breastfeeding challenges and tips</a></h3>
+                <p>Discuss common breastfeeding problems and practical solutions.</p>
+                <small>Posted by SarahLee on January 22, 2025</small>
+            </div>
+
+            <!-- More posts can be added here -->
+
+            <button onclick="loadMorePosts()">Load More Posts</button>
+        </section>
+
+        <!-- Forum Submission Form -->
+        <section class="submit-post">
+            <h2>Share Your Experience</h2>
+            <form id="postForm">
+                <label for="title">Post Title:</label>
+                <input type="text" id="title" name="title" placeholder="Enter your post title" required><br><br>
+
+                <label for="content">Post Content:</label><br>
+                <textarea id="content" name="content" rows="4" cols="50" placeholder="Write your post here" required></textarea><br><br>
+
+                <button type="submit">Submit Post</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Postpartum Care Community. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to handle post submission (optional) -->
+    <script>
+        document.getElementById('postForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const title = document.getElementById('title').value;
+            const content = document.getElementById('content').value;
+
+            alert('Post submitted: ' + title + '\n' + content);
+
+            // Optionally, you could send this data to a backend server here
+        });
+
+        function loadMorePosts() {
+            alert('Loading more posts...');
+            // Fetch more posts from the server or load them dynamically
+        }
+    </script>
+</body>
+</html>

@@ -2,30 +2,32 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: ERROR 404
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: CHINNU ISSAC- LBSITW
+- Member 2: FATHIMA SHADHA C P- LBSITW
+- Member 3: GOURY NANDA IJ - LBSITW
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+Website -Postpartum care for women. 
+Mainly focuses on mental and physical health.
+can connect with community.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Communication with like minded people
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+website
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [Languages used] HTML ,CSS,JavaScript
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
@@ -38,7 +40,9 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+[commands]vs code
+git
+github
 
 # Run
 [commands]
@@ -47,13 +51,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](Homepage.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](Aboutus.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](pic3.png)
 *Add caption explaining what this shows*
 
 # Diagrams
